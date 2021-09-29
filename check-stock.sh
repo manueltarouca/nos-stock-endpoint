@@ -7,6 +7,7 @@ do
   echo $RESULT;
   if [ $RESULT != '0'  ]
   then
+   termux-notification -c "disponiiiiivel";
    echo "DISPONÍIIIIIIIIIIIIIIIIIIIIIIIIVEL!!";
    exit 0;
   fi
